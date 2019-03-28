@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CompositeWordsKata
+namespace CompositeWordsKataReadable
 {
     class Program
     {
