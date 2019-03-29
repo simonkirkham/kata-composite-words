@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace CompositeWordsKataExtendable
 {
@@ -6,7 +7,15 @@ namespace CompositeWordsKataExtendable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            //All logic must be between the start and stop
+            Console.WriteLine("Print output here");
+
+            stopwatch.Stop();
+            Console.WriteLine("Time Taken: " + stopwatch.Elapsed);
+            Console.ReadLine();
         }
     }
 }

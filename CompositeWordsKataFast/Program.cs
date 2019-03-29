@@ -11,7 +11,7 @@ namespace CompositeWordsKataFast
             stopwatch.Start();
 
             //All logic must be between the start and stop
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Print output here");
 
             stopwatch.Stop();
             Console.WriteLine("Time Taken: " + stopwatch.Elapsed);
