@@ -9,7 +9,10 @@ namespace CompositeWordsKataFast
         {
             var stopwatch = new Stopwatch();
             stopwatch.Start();
+
+            //All logic must be between the start and stop
             Console.WriteLine("Hello World!");
+
             stopwatch.Stop();
             Console.WriteLine("Time Taken: " + stopwatch.Elapsed);
             Console.ReadLine();
