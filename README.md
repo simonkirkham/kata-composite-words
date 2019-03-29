@@ -1,6 +1,6 @@
 # kata-composite-words
 
-For this kata, we’re going to write a program to solve a simple problem, and we’re going to write it with three different sub-objectives. Our program is going do process the dictionary from here - http://codekata.com/data/wordlist.txt, this time looking for all six letter words which are composed of two concatenated smaller words. For example:
+For this kata, we’re going to write a program to solve a simple problem, and we’re going to write it with three different sub-objectives. Our program is going do process the dictionary from here - http://codekata.com/data/wordlist.txt, looking for all six letter words which are composed of two concatenated smaller words. For example:
 
 Write the program three times.
  - The first time, make program as readable as you can make it.
